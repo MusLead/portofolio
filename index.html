@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html data-bs-theme="auto" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <script>!function(){const e=()=>localStorage.getItem("theme"),t=document.documentElement.getAttribute("data-bss-forced-theme"),a=()=>{if(t)return t;const a=e();if(a)return a;const c=document.documentElement.getAttribute("data-bs-theme");return c||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")},c=e=>{"auto"===e&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.setAttribute("data-bs-theme","dark"):document.documentElement.setAttribute("data-bs-theme",e)};c(a());const r=(e,t=!1)=>{const a=[].slice.call(document.querySelectorAll(".theme-switcher"));if(!a.length)return;document.querySelectorAll("[data-bs-theme-value]").forEach((e=>{e.classList.remove("active"),e.setAttribute("aria-pressed","false")}));const c="auto"===e?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":e;for(const t of a){if(!!t.dataset.bsAdaptIcon){const e=t.querySelector("[data-bss-adaptable]");try{const a=JSON.parse(t.dataset.bssIcons||"{}")[c],r=document.createElement("template");r.innerHTML=a;const s=r.content.cloneNode(!0);s?.children?.length&&(s.children[0].dataset.bssAdaptable=!0),e.replaceWith(s)}catch(e){}}const a=t.querySelector('[data-bs-theme-value="'+e+'"]');a&&(a.classList.add("active"),a.setAttribute("aria-pressed","true"))}};window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",(()=>{const t=e();"light"!==t&&"dark"!==t&&c(a())})),window.addEventListener("DOMContentLoaded",(()=>{r(a()),document.querySelectorAll("[data-bs-theme-value]").forEach((e=>{e.addEventListener("click",(t=>{t.preventDefault();const a=e.getAttribute("data-bs-theme-value");(e=>{localStorage.setItem("theme",e)})(a),c(a),r(a)}))}))}))}();</script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top portfolio-navbar gradient navbar-dark">
+        <div class="container"><a class="navbar-brand logo" href="#">Agha M. Aslam</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-start ms-auto">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link active" href="/index.html#welcome" style="height: auto;"><i class="icon ion-android-home" style="font-size: 26px;height: auto;"></i></a></li>
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link active" href="/index.html#projects-overview">Recent Works</a></li>
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link active" href="/index.html#area-focus" style="text-align: left;">Areas Of Focus</a></li>
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link active" href="/index.html#contact"><span style="color: rgb(255, 255, 255);">Let’s Talk</span><span style="font-weight: normal !important; color: rgb(255, 255, 255);">!</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="d-flex justify-content-center align-items-center py-8 portfolio-block block-intro" id="welcome">
+            <div class="col">
+                <div class="avatar" style="background: url(&quot;assets/img/avatars/Agha%27s%20Photo.webp&quot;) center / contain;height: 300;width: 300;"></div>
+                <div class="about-me">
+                    <p class="my-4">Hello! I am <strong>Agha M. Aslam</strong>, a Computer Science student passionate about software, embedded systems, and IT security. I enjoy building practical solutions that connect software and hardware.</p><a class="btn btn-primary btn-lg mx-2" role="button" id="linkdin-welcome" href="https://www.linkedin.com/in/aghaaslam" target="_blank"><i class="icon ion-social-linkedin-outline" style="font-size: 26px;"></i></a>
+                </div>
+                <div class="container"><a href="#projects-overview">
+                        <div class="my-4 py-4 avatar" style="width: auto;max-width: 800px;">
+                            <h4 class="mb-0" style="max-width: 800px;width:  auto;"><strong>My Recent Works</strong></h4><i class="icon ion-ios-arrow-thin-down" style="font-size: 53px;"></i>
+                        </div>
+                    </a></div>
+            </div>
+        </section>
+        <section class="py-7 portfolio-block" id="projects-overview">
+            <div class="container">
+                <div class="heading">
+                    <h2>Recent Works</h2>
+                </div>
+                <div class="row d-flex justify-content-center align-items-start">
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Smart Home Ventilation System&nbsp;</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img class="card-img-top" src="assets/img/tech/Screenshot%202026-09-27%20at%2017.52.46.webp" alt="Card Image">
+                                            <p class="my-3 py-0">A modular Smart Home Ventilation System developed as an IoT semester project. ESP32-based indoor and outdoor nodes collect environmental data and control actuators, while MQTT provides communication through a central hub. An Express/EJS web application provides a user interface for monitoring sensor information and controlling connected devices.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary" role="button" href="https://github.com/MusLead/Smart-Home-Ventilation" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-1" data-bs-toggle="modal"><img src="assets/img/tech/Screenshot%202026-09-27%20at%2017.52.46.webp" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Smart Home Ventilation System&nbsp;</h4>
+                                <p class="text-muted card-text">IoT-based smart ventilation system integrating ESP32 sensor and actuator nodes, MQTT communication, and a web-based monitoring and control interface.</p><a class="btn btn-primary" role="button" href="https://github.com/MusLead/Smart-Home-Ventilation" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Husarion Frontier Explorer</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Husarion.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">A robotics project that enables a Husarion mobile robot to autonomously explore and map an unknown environment. The system combines SLAM, Nav2, laser scanning and frontier-based exploration, with parameter optimisation to improve obstacle avoidance and exploration coverage. The project also includes RViz visualisation and automatic map storage after exploration.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary" role="button" href="https://github.com/MusLead/husarion-frontier-explorer" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-2" data-bs-toggle="modal"><img src="assets/img/tech/Husarion.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Husarion Frontier Explorer</h4>
+                                <p class="text-muted card-text">Autonomous ROS 2 robot exploration system using SLAM, Nav2 and frontier detection to map previously unknown environments.</p><a class="btn btn-primary" role="button" href="https://github.com/MusLead/husarion-frontier-explorer" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-3">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Binary Tree App</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/BinTreeApp.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0"><strong>General Project:</strong><br>An algorithms and data-structures project implementing several binary-tree variants in Java. A common abstract BinaryTree architecture separates shared operations from tree-specific behaviour, while AVL and Red-Black Trees implement their respective balancing mechanisms. Particular emphasis was placed on iterative rather than recursive implementations and automated testing.<br><br><strong>Visualisation Project</strong><br>An educational visualisation tool that connects binary-tree algorithms with an interactive graphical representation. Users can observe changes to the tree, follow individual node modifications and review the history of operations. The application integrates the BinaryTreeHSF implementations with JavaFX, Graphviz and WebView-based visualisation.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="d-flex justify-content-center align-items-center gap-2"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/BinaryTreeHSF" target="_blank">To The General Project Overview</a><a class="btn btn-primary mx-0 my-2" role="button" href="https://github.com/MusLead/BinaryTreeHSF_Visualisation" target="_blank">To the Visualisation Project Overview</a><button class="btn btn-light h-auto mx-0" type="button" data-bs-dismiss="modal">Close</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-3" data-bs-toggle="modal"><img src="assets/img/tech/BinTreeApp.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Binary Tree App</h4>
+                                <p class="text-muted card-text">Java implementation of Binary Search Trees, AVL Trees and Red-Black Trees with a shared modular architecture and iterative algorithms.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/BinaryTreeHSF" target="_blank">To The General Project Overview</a><a class="btn btn-primary mx-0 my-2" role="button" href="https://github.com/MusLead/BinaryTreeHSF_Visualisation" target="_blank">To the Visualisation Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-4">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">UNO App</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/UNOApp.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">A complete programming and modelling project based on the UNO card game. The application uses Java and JavaFX for the game interface and implements card, player and game-state logic, including automated players. Model-driven development with Fulib and automated tests using JUnit and TestFX were used to validate game behaviour.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/UNO_PuM" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-4" data-bs-toggle="modal"><img src="assets/img/tech/UNOApp.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">UNO App</h4>
+                                <p class="text-muted card-text">JavaFX implementation of the UNO card game combining object-oriented modelling, game logic, graphical interfaces and automated testing.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/UNO_PuM" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-5">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Term Paper:&nbsp;Railway Communication Security</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img alt="Card Image" src="assets/img/tech/railway_khushi_gandhi2605.jpg" class="card-img-top">
+                                            <p class="my-3 py-0">A research project examining how safety-critical communication between trains and railway control infrastructure is protected against cyber threats. The work analyses European railway technologies including ETCS, GSM-R and FRMCS and compares their security approaches with Japanese railway systems. Topics include authentication, integrity, availability, MILS, intrusion detection and Moving Target Defence.<br><br>The repository also documents the evolution of the paper through several revisions and contains its LaTeX and Markdown source and build environment.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/HA_Train_SS26" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-5" data-bs-toggle="modal"><img alt="Card Image" src="assets/img/tech/railway_khushi_gandhi2605.jpg" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Term Paper:&nbsp;Railway Communication Security</h4>
+                                <p class="text-muted card-text">Academic cybersecurity study comparing the protection of safety-critical railway communication systems in Europe and Japan.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/HA_Train_SS26" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-6">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Simple Message Broker</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/smb.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">A networking project implementing a lightweight publish/subscribe protocol directly on top of UDP. The system consists of a broker, publishers and subscribers communicating through a custom text protocol. It supports hierarchical topics, wildcard subscriptions, dynamic subscriber management, unsubscribe handling and both periodic and interactive publishers.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/tcpip-ws2526-smb" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-6" data-bs-toggle="modal"><img src="assets/img/tech/smb.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Simple Message Broker</h4>
+                                <p class="text-muted card-text">UDP-based publish/subscribe message broker written in C with hierarchical topics, wildcard subscriptions and multiple publisher modes.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/tcpip-ws2526-smb" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-7">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Rakaat Counter</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/RakaatCounter.webp" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An embedded-system prototype designed to automatically count rakaat during prayer. The system detects sujud using either an ultrasonic distance sensor or an infrared sensor. State-change and debounce logic filter sensor readings to avoid false or repeated detections. After two detected sujud movements, the system increments the rakaat count and displays the result on an OLED screen with visual feedback.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/rakaat_counter" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-7" data-bs-toggle="modal"><img src="assets/img/tech/RakaatCounter.webp" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Rakaat Counter</h4>
+                                <p class="text-muted card-text">Arduino-based embedded system that detects sujud movements using ultrasonic or infrared sensors and automatically counts completed rakaat.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/rakaat_counter" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-8">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Moodle ILL Spring 2026</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Moodle-Railway.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">A collaborative learning-platform project centred around deploying, configuring and documenting a Moodle environment for railway-related educational content. The project covers Moodle server and database installation, multilingual content support, plugin configuration, HTTPS deployment, Composer and backup procedures, together with experimentation with local AI integration using Ollama.<br><br></p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/moodle-ill-spring-2026" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-8" data-bs-toggle="modal"><img src="assets/img/tech/Moodle-Railway.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Moodle ILL Spring 2026</h4>
+                                <p class="text-muted card-text">Deployment and configuration of a Moodle-based railway learning platform developed for the E³UDRES² I Living Lab Spring 2026.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/moodle-ill-spring-2026" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-9">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">MiniShell</h4>
+                                <p class="text-muted card-text">Unix-like command shell written in C using processes, pipes, signals and low-level POSIX system functionality.</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-11">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-11" data-bs-toggle="modal"><img src="assets/img/tech/cloudGate.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">CloudGate Game</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/cloudgate-game-docs" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-10">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/EDAG_Robot.jpg" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">EDAG CityBot Project</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/fps_reducer" target="_blank">To FPS_Reducer Overview</a><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/cb_decompressor" target="_blank">To cb_decompressor Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-18">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/cloudGate.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Abacus App</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/Sempoa_App" target="_blank">To The Project Overview 1</a><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/abacus-javaFX" target="_blank">To The Project Overview 2</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-17">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/cloudGate.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Online Store App</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/BukaTokoOnline" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-16">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/robotikImC.webp" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Line Follower in C</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/LaborC_LineFollower" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-14">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/cloudGate.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Sparse Vector</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/SparseVektors" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-13">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/cloudGate.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Mawaqit for Android Watch</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/MawaqitApp" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3">
+                        <div class="card border-0">
+                            <div class="modal fade" role="dialog" tabindex="-1" id="modal-12">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">MiniShell</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body"><img src="assets/img/tech/Minishell.png" alt="Card Image" class="card-img-top">
+                                            <p class="my-3 py-0">An operating-systems project implementing a small interactive Unix shell from scratch. The shell executes system commands through fork() and execvp(), resolves programs through PATH, supports command arguments, multiple commands and pipelines, and implements built-in commands such as cd, exit and ret. It also handles Unix signals including SIGINT and SIGHUP and includes automated functionality tests.</p>
+                                        </div>
+                                        <div class="modal-footer"><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/minishell" target="_blank">To The Project Overview</a><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div><a class="scale-on-hover" href="#modal-9" data-bs-toggle="modal"><img src="assets/img/tech/OverviewRobotFootball.png" alt="Card Image" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="modal-title">Virtual Simulation: Robot-Football</h4>
+                                <p class="text-muted card-text">Quisque adipiscing fermentum pretium bibendum sagittis eros sit diam, libero</p><a class="btn btn-primary my-2" role="button" href="https://github.com/MusLead/VerSys_Roboter-Fussball" target="_blank">To The Project Overview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="area-focus" class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2 id="area-focus">my areas of focus</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Interface Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Photography and Print</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block hire-me call-to-action border-bottom gradient">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="my-4" id="contact">Like what you see?</h2>
+                    <form class="border rounded border-0 shadow-lg p-3 p-md-5" data-bs-theme="light" data-bss-recipient="8bd2ac0cf458234a7aa0b566779665a4" data-bss-subject="Someone interested to get in touch">
+                        <div class="mb-3"><label class="form-label" for="subject-1">Name</label><input class="form-control" type="text" id="subject-1" required=""></div>
+                        <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email" required=""></div>
+                        <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control" id="message" required=""></textarea></div>
+                        <div class="mb-3"></div>
+                        <div class="row">
+                            <div class="col-md-6 col-xl-12 col-xxl-12 button"><button class="btn btn-dark" type="submit">Get in Touch with Me!&nbsp;</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-3 page-footer border-top">
+        <div class="container my-4">
+            <div class="social-icons"><a class="me-3" href="https://www.linkedin.com/in/aghaaslam" target="_blank"><i class="icon ion-social-linkedin"></i></a></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
