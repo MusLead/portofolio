@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="1600" height="1600" fill="none" aria-label="Sparse circuit lines">
+  <g stroke="#20d9ec" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path opacity=".52" d="M0 95h92q18 0 18 18v94q0 18 18 18h116"/>
+    <path opacity=".34" d="M0 124h65q17 0 17 17v122q0 16 16 16h79"/>
+    <path opacity=".4" d="M0 345h135q18 0 18 18v75q0 18 18 18h71"/>
+    <path opacity=".23" d="M0 372h106q17 0 17 17v93q0 18 18 18h129"/>
+    <path opacity=".43" d="M0 695h90q20 0 20-20v-75q0-20 20-20h148"/>
+    <path opacity=".25" d="M0 721h66q19 0 19-19v-84q0-18 18-18h121"/>
+    <path opacity=".44" d="M0 1134h82q22 0 22 22v68l65 65h115"/>
+    <path opacity=".26" d="M0 1161h48q20 0 20 20v57l64 65h95"/>
+    <path opacity=".4" d="M0 1484h111q18 0 18-18v-63q0-18 18-18h120"/>
+    <path opacity=".28" d="M0 1512h80q20 0 20-20v-68q0-17 17-17h93"/>
+  </g>
+  <g stroke="#7588f5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path opacity=".43" d="M1600 69h-100q-17 0-17 17v103q0 17-17 17h-108"/>
+    <path opacity=".26" d="M1600 100h-70q-17 0-17 17v108q0 17-17 17h-104"/>
+    <path opacity=".45" d="M1600 392h-83l-68 68h-96"/>
+    <path opacity=".25" d="M1600 421h-70l-66 68h-127"/>
+    <path opacity=".5" d="M1600 786h-104q-18 0-18 18v76q0 18-18 18h-143"/>
+    <path opacity=".28" d="M1600 811h-78q-18 0-18 18v74q0 18-18 18h-105"/>
+    <path opacity=".44" d="M1600 1163h-80q-18 0-18-18v-72q0-18-18-18h-140"/>
+    <path opacity=".25" d="M1600 1190h-58q-18 0-18-18v-77q0-18-18-18h-104"/>
+    <path opacity=".43" d="M1600 1476h-107l-57-57h-95"/>
+    <path opacity=".26" d="M1600 1503h-122l-58-57h-117"/>
+  </g>
+  <g fill="#20d9ec">
+    <circle opacity=".8" cx="244" cy="225" r="5"/><circle opacity=".55" cx="177" cy="279" r="4"/>
+    <circle opacity=".75" cx="242" cy="456" r="5"/><circle opacity=".65" cx="278" cy="580" r="6"/>
+    <circle opacity=".8" cx="284" cy="1289" r="5"/><circle opacity=".6" cx="267" cy="1385" r="5"/>
+  </g>
+  <g fill="#7588f5">
+    <circle opacity=".75" cx="1358" cy="206" r="5"/><circle opacity=".58" cx="1392" cy="242" r="4"/>
+    <circle opacity=".72" cx="1353" cy="460" r="5"/><circle opacity=".8" cx="1317" cy="898" r="6"/>
+    <circle opacity=".6" cx="1344" cy="1055" r="5"/><circle opacity=".7" cx="1341" cy="1419" r="5"/>
+  </g>
+  <g stroke-width="1.5" fill="none">
+    <circle stroke="#20d9ec" opacity=".4" cx="244" cy="225" r="12"/>
+    <circle stroke="#20d9ec" opacity=".4" cx="278" cy="580" r="13"/>
+    <circle stroke="#7588f5" opacity=".45" cx="1317" cy="898" r="14"/>
+    <circle stroke="#7588f5" opacity=".4" cx="1341" cy="1419" r="12"/>
+  </g>
+</svg>
